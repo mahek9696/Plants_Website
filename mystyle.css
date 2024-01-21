@@ -1,0 +1,133 @@
+body
+{
+	font: 200;
+	font-style:italic;
+	font-size:40pt;
+	font-family: sans-serif;
+  	font-style: normal;
+  	background-color: white;
+  	background-image: url("");
+  	background-repeat: no-repeat;
+
+}
+.menu 
+{
+  overflow: hidden;
+  background-color: white;
+}
+
+.menu a 
+{
+  float: right;
+  display: block;
+  color: green;
+  text-align: center;
+  padding: 1.6vw 1.6vw;
+  padding-left: 2.1vw;
+  text-decoration: none;
+  font-size: 2.3vw;
+}
+.menu a:hover 
+{
+  background-color: lightgray;
+}
+p.head
+{
+	text-align: center;
+	padding-left: 2.1vw;
+	color: green;
+  	font-size: 7vw;
+  	line-height: 1.4705882353;
+  	font-weight: 400;
+  	letter-spacing: -0.022em;
+  	margin-bottom: 0vw;
+  	margin-top: 2.5vw;
+}
+h1
+{
+  text-align: center;
+ padding-inline: 7.5vw;
+  color:grey;
+    font-size: 2.5vw;
+    line-height: 1.4705882353;
+    font-weight: 100;
+    letter-spacing: -0.022em;
+    font-family: unset;
+    margin-top: 2vw;
+    scroll-padding-inline: 1.7vw;
+}
+h2
+{
+	text-align: center;
+	padding-left: 33.33vw;
+	color:grey;
+  	font-size: 2vw;
+  	line-height: 1.4705882353;
+  	font-weight: 100;
+  	letter-spacing: -0.022em;
+  	font-family: unset;
+  	margin-top: 0vw;
+}
+h3
+{
+  text-align: center;
+  padding-left: 2.1vw;
+  color: green;
+    font-size: 100%;
+    line-height: 1.4705882353;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    margin-bottom: 0vw;
+    margin-top: 7.5vw;
+}
+p
+{
+	vertical-align:text-bottom;
+	margin: 1.5vw;
+	color: green;
+	font-size: 6vw;
+  	line-height: 1.4705882353;
+  	font-weight: 400;
+  	letter-spacing: -0.022em;
+  	text-align: center;
+}
+
+div.gif
+{
+  display: center;
+  width: 100%;
+  height: 100%;
+}
+div.parent_gallery
+{
+  display: flex;
+  text-align: center;
+
+}
+div.gallery
+{
+  margin: 0.5vw;
+  float: left;
+  width: 462vw;
+  align-content: ;
+}
+div.gallery img 
+{
+  width: 100%;
+  height: 26vw;
+}
+
+div.desc 
+{
+  padding: 1.25vw;
+  text-align: center;
+  font-size: 3vw;
+}
+a 
+{
+  color: lightgray;
+  font-size: 60%;
+}
+img{
+
+}

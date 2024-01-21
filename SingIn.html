@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Javascript Form Validation</title>
+    <link rel="stylesheet" href="login.css">
+    <script   src="https://code.jquery.com/jquery-3.6.3.min.js"   integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="   crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Welcome to Plants Web !</h1>
+    <form  name="myForm" action="file:///Volumes/MAHEK/SEM_4_PROJECT/thank.html", method="post" id="SingInForm" >
+        <div class="formdesign" id="name" >
+            Name:<input class="name" type="text"name="fname"><b>
+                <span class="formerror"></span></b>
+        </div>
+        <div class="formdesign" id="email" >
+            Email:<input class="email" type="email"name="femail"><b>
+                <span class="formerror"></span></b>
+        </div>
+        <div class="formdesign" id="phone" >
+            Phone:<input class="phone" type="phone"name="fphone"><b>
+                <span class="formerror"></span></b>
+        </div>
+        <div class="formdesign" id="pass">
+            Password:<input type="password"name="fpass"><b>
+                <span class="formerror"></span></b>
+        </div>
+        <div class="formdesign" id="cpass">
+            Confirm Password:<input type="password"name="fcpass"><b>
+                <span class="formerror"></span></b>
+        </div>
+        <button class="but" onclick="return validateForm()" 
+        type="submit">Submit</button>
+        <div id="showJson">
+        <button class="but" onclick="submitData()" type="button" 
+        value="SEND">Data</button>
+        </div>
+    </form>
+    <script src="SingIn.js"></script>
+</body>
+</html>

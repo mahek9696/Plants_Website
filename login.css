@@ -1,0 +1,50 @@
+body {
+    padding: 0.84vw 4.17vw; 
+    font-family: sans-serif;
+    color: green;
+    font-family: cursive;
+    margin-top: 3.34vw;
+    margin-left: 3.34vw;
+}
+.formdesign{
+    font-size: 2.08vw;
+}
+.formdesign input {
+    width: 20%;
+    padding-block: 0.84vw;
+    padding:1vw 1.67vw;
+    border:0.08vw solid green;
+    margin:1.17vw;
+    font-family: cursive;
+    color: darkgreen;
+    border-radius:0.33vw;
+    font-size:2.083vw;
+}
+.formerror{
+    color:brown;
+    font-family: cursive;
+}
+button{
+    border-radius:0.75vw;
+    border-color: lightgray;
+    width:10.8vw;
+    height:4.17vw;
+    font-size:2.08vw;
+    margin:1.17vw 1.7vw;
+    color: green;
+    margin:4.17vw;
+    font-family: cursive;
+    margin-left: 15.84vw;
+}
+.butt button{
+    border-radius:0.75vw;
+    border-color: lightgray;
+    width:10.83vw;
+    height:4.17vw;
+    font-size:2.08vw;
+    margin:1.17vw 1.7vw;
+    color: green;
+    margin:4.16vw;
+    font-family: cursive;
+    margin-left: 15.83vw;
+}

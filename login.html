@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Javascript Form Validation</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="area">
+    <h1>Welcome to Plants Web !</h1>
+    <form action="file:///Volumes/MAHEK/SEM_4_PROJECT/thank2.html" 
+    name="myForm" onsubmit="return validateForm()" method="post">
+        <div class="formdesign" id="name">
+            Username:<input type="text"name="fname" ><span class="formerror">
+                </span>
+        </div>
+        <div class="formdesign" id="pass">
+            Password:<input type="password"name="fpass" ><span class="formerror">
+                </span>
+        </div>
+        <button class="but" type="submit">Submit</button>
+    </form>
+    </div>
+</body>
+<script src="login.js"></script>
+</html>
